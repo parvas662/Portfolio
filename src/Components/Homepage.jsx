@@ -1,12 +1,16 @@
+ 
+import NavBar from "./NavBar";
 
-
-
+import About from "./About";
+import Home from "./Home";
 
 const Homepage = ()=>{
 
     return (
-        <div>
-            hi there im Homepage Component!
+        <div className=" bg-red-700/90">
+            <NavBar/>  
+            <Home/> 
+            <About/>     
         </div>
     )
 }
